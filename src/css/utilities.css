@@ -13,7 +13,7 @@
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 3rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margenes =====*/
@@ -28,7 +28,7 @@
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
+    --h2-font-size: 3rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
@@ -237,7 +237,8 @@ h2::selection {
     text-align: center;
   }
 
-  .content-text h2 {
+  .content-text h2, h2.section-title {
     font-size: 2.5rem;
   }
+
 }

@@ -457,9 +457,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .contact__container {
-    width: 80%;
-  }
 
   .certifications {
     grid-template-columns: 1fr 1fr;
@@ -471,10 +468,6 @@ body {
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr;
-    width: 80%;
-  }
-
-  .contact__container {
     width: 80%;
   }
 
