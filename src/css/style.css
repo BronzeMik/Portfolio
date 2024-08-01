@@ -248,11 +248,11 @@ body {
 #spotlight-subtitle, #spotlight-subtitle a {
   text-transform: uppercase;
   font-size: 1.2rem;
-  font-weight: semibold;
+  font-weight: bold;
 }
 
 #spotlight-subtitle a {
-  color: blue;
+  color: var(--first-color);
 }
 
 
